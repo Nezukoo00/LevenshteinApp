@@ -42,6 +42,6 @@
                                     Width="Auto" />
             </DataGrid.Columns>
         </DataGrid>
-        <TextBlock Name="TotalCostTextBlock" Grid.Row="2" Margin="10" HorizontalAlignment="Right"/>
+        
     </Grid>
 </Window>

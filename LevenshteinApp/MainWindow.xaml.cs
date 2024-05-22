@@ -35,7 +35,7 @@ namespace LevenshteinApp
             }
             int distance = CalculateLevensteinDistance(word1,word2, out List<LevenshteinStep> steps);
             LevenshteinDataGrid.ItemsSource= steps;
-            TotalCostTextBlock.Text= $"Total Changes: {distance}";
+           
         }
         private int CalculateLevensteinDistance (string word1,string word2, out List<LevenshteinStep> steps)
         {
